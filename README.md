@@ -88,6 +88,16 @@ http://localhost:8080/h2-console
 
 ---
 
+## 📄 Swagger
+
+A documentação da API pode ser acessada localmente após iniciar o projeto:
+
+http://localhost:8080/swagger-ui.html
+
+ou:
+
+http://localhost:8080/swagger-ui/index.html
+
 ## 👨‍💻 Autor
 
 Denilson Silva
