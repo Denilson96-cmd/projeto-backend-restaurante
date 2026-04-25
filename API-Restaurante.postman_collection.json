@@ -1,0 +1,61 @@
+{
+  "info": {
+    "_postman_id": "dec93530-7652-4c41-9e9e-fec6fb0cb87c",
+    "name": "API Restaurante",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54179175",
+    "_collection_link": "https://go.postman.co/collection/54179175-dec93530-7652-4c41-9e9e-fec6fb0cb87c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzM4NCJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9VU0VSIn1dLCJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJpYXQiOjE3NzY4MTkwNDAsImV4cCI6MTc3NjkwNTQ0MH0.yWY_XKq_JmC6fyJfTSITlkoGoc70j2JgzblvO743J8X1d-98NIKHiilEcv06gq43",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"admin@email.com\",\r\n  \"senha\": \"123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/auth/teste",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "auth",
+            "teste"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Criar Usuario",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
