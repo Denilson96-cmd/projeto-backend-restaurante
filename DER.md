@@ -7,27 +7,27 @@ Este diagrama representa a estrutura do banco de dados da API.
 ## 🧱 Entidades
 
 ### Usuário
-- id
+- idd
 - nome
 - email
 - senha
 
 ### Pedido
-- id
+- idd
 - canalPedido
 - status
 - criadoEm
 - usuario_id
 
 ### ItemPedido
-- id
+- idd
 - produtoNome
 - quantidade
 - precoUnitario
 - pedido_id
 
 ### Pagamento
-- id
+- idd
 - status
 - criadoEm
 - pedido_id
